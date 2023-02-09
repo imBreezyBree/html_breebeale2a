@@ -1,0 +1,52 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-small;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    text-align: left;
+    padding: 20px 20px;
+    font-size: 20px;
+  }
+  
+  .item1 { /*Things you should know about me*/
+    grid-area: 1 / 1 / 1 / 4;
+    background-color: rgba(248, 225, 255, 0.89);
+  }
+  
+  .item2 { /*Personal Skills*/
+    grid-area: 1 / 4 / 1 / 7;
+    background-color: rgba(250, 235, 255, 0.89);
+  }
+  .item3 { /*Contact Details*/
+    grid-area: 2 / 1 / 2 / 1;
+    background-color: rgb(226, 226, 226);
+  }
+  
+  .item4 { /*Education and Qualification*/
+    grid-area: 3 / 1;
+    background-color: rgb(226, 226, 226);
+  }
+  
+  .item5 { /*Links to Projects*/
+    grid-area: 4 / 1;
+    background-color: rgb(226, 226, 226);
+  }
+  
+  .item6 { /*References*/
+    grid-area: 5 / 1;
+    background-color: rgb(226, 226, 226);
+  }
+  
+  .item7 { /*Employment History*/
+    grid-area: 2 / 2 / 6 / 7;
+    background-color: rgb(243, 243, 243);
+  }
